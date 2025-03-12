@@ -1,5 +1,5 @@
 # Metodi-LAB
-first repository for the "Metodi e tecnologie per lo sviluppo software" course
+First repository for the "Metodi e tecnologie per lo sviluppo software" course
 
 ## Tabs
 - Code Tab: the CT contains all files included in the repository; those files might be about actual code, documentation or others.
