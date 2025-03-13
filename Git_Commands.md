@@ -38,3 +38,8 @@ There's a list of the most common (and useful) commands for Git:
 - Create or change working branch:
     - `git checkout <Branch-Name>` to change branch.
     - `git checkout -b <New-Branch>` to create a new branch and start working on it.
+- View project history:
+    - `git log --oneline` shows the action performed on the project.
+    - `git log --oneline --graph` shows the action performed on the project + the graph of all the branches.
+ 
+For more commands or general informations: https://githubtraining.github.io/training-manual/#/01_getting_ready_for_class
