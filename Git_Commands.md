@@ -1,0 +1,40 @@
+# Git Commands
+There's a list of the most common (and useful) commands for Git:
+- Having a repository on Github, create a local clone on our machine:
+    - `git clone <clone-URL>`
+- Control the status of our local repository:
+    - `git status`
+- Update the local repository from the remote one:
+    - `git pull origin main`
+    - `git fetch origin main` to update only the main branch whilst keeping the changes we're working on.
+    - `git pull` to update only the current branch.
+    - `git fetch` to update the current branch while keeping the changes done to the files we're working on.
+- Visualize all local branches of our repository:
+    - `git branch`
+- Visualize all branches (local and remote) of our repository:
+    - `git branch -a`
+    - Local branches will be displayed preceded by an asterisk, while remote ones will be showed with their folder path.
+- Add a line on the bottom of a text file:
+    - `echo "Line-To-Add" >> <File-Name>.md`
+- Visualize all files changes:
+    - `git diff`
+- Add a file to the Staging Area:
+    - `git add <File-Name>.md`
+- Remove a file from the Staging Area (without discarding its changes):
+    - `git restore --staged <File-Name>.md`
+- Show the file text in the terminal:
+    - `cat <File-Name>.md`
+- Restore a file to its previous version:
+    - `git restore <File-Name>.md`
+- Commit the changes of a group of files:
+    - `git commit <File-Name>.md` to directly commit a single file.
+    - `git commit` to commit all files in the Staging Area (you have to use the add command first).
+    - `git commit -a` to commit all modified files, wherever they are (new files not in the remote repository are not affected).
+    - `git commit -m "Comment"` to commit a file while adding a comment.
+- Merge the commits:
+    - `git push origin main` to merge the changes with the remote repository.
+    - `git push <Branch-Name>` merge the changes on the corresponding remote branch.
+    - `git merge <Branch-Name>` merge the specified branch on the current branch.
+- Create or change working branch:
+    - `git checkout <Branch-Name>` to change branch.
+    - `git checkout -b <New-Branch>` to create a new branch and start working on it.
