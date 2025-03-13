@@ -3,7 +3,7 @@ Markdown is the basic syntax used by Github to format texts. Each text only file
 ## Headers
 To create a header we need to type one (or more based on the importance) "#" symbol at the start of the line, followed by a space.
 ## Lists
-Creating a list is simple: we just need one of those symbols, "*" or "-" followed by a space.
+Creating a list is simple: we just need one symbol, "-" followed by a space.
 ### Checklists
 A particular kind of list is a checklist, for which we need a "-", a space and to open and close a square bracket "[ ]" with a space in between.
 ## Bold text
