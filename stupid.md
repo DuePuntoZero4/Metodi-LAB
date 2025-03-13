@@ -1,1 +1,0 @@
-we are fucking stupid
