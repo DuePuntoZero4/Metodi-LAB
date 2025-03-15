@@ -6,6 +6,7 @@ There's a list of the most common (and useful) commands for Git:
     - `git status`
 - Update the local repository from the remote one:
     - `git pull origin main`
+    - `git pull --rebase origin main` to update from the remote repository but merging the changes we've done to the changes that went up in the remote main branch.
     - `git fetch origin main` to update only the main branch whilst keeping the changes we're working on.
     - `git pull` to update only the current branch.
     - `git fetch` to update the current branch while keeping the changes done to the files we're working on.
